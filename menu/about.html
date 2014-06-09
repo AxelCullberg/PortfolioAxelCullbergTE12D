@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Axel Cullbergs Portfolio</title>
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" rel="stylesheet" />
+		<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/lib/fontello.css" />
+		<link rel="stylesheet" href="css/lib/normalize.css" />
+		
+		<link rel="stylesheet" href="css/style.css" />
+		
+		<link rel="stylesheet" href="css/sidebar.css" />
+		
+		<!--[if lt IE 9]>
+			<script src="js/lib/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		
+
+<div class="wrapper jsc-sidebar-content jsc-sidebar-pulled">
+	<nav>
+		<a href="#" class="icon-menu link-menu jsc-sidebar-trigger"></a>
+	</nav>
+	<section id="page2" class="main-content">
+		 <div id="header">
+		 <h1> Om mig </h1>
+            
+
+            
+            <div class="contentText">
+              <p>Mitt namn är Axel Cullberg och jag läser årskurs två på Teknikprogrammet, NTI-gymnasiet i Göteborg.</p>   
+
+               <p> Jag är en person som brinner för service och att skapa glädjefyllda möten för gäster och kunder. 
+                Under tre års tid har jag sålt GT (GT/Expressen) på helgerna och där har jag fått glädjen att möte olika sorters kunder, arbeta effektivt och avrapportera redovisning av försäljning. Varje säljare tar eget ansvar för upphämtning av tidningar, försäljning och returnering och försäljningsrapportering. Sommaren 2013 arbetade jag på ett äldreboende där mina huvudskaliga upppgifter var att uppmärksamma på gästernas behov och serva dem efter dessa. Under sommaren 2013 tjänstgjorde jag också som arbetsmiljöambassadör för Arbetsmiljöverket. Jag arbetar just nu tillfälligt som behovsanställd för att kapa toppar för utgående försändelser hos VTD. Mina andra arbetslivserfarenheter har jag från praktik i affär, restaurant samt på dagis. </p>
+
+                <p>Jag är en positiv, öppen och social person som är van att arbeta under högt tempo och med gott humör. Oavsett om jag arbetat på ett äldreboende, restaurant, på dagis, eller sålt tidningar så har det inte funnits många sekunder för att fånga både små och stora människors intresse, för att inbjuda till kontakt för ett samtal eller sälja en tidning.  Att snabbt kunna fånga någon och skapa förtroende för min person och en positiv kontakt är min viktigaste erfarenhet och samtidigt lite oväntat något jag känner har varit väldigt roligt och givande. Under mina tidigare anställningar har jag jobbat under eget ansvar och självständigt skött information och rapportering vilket kräver både noggranhet och punktlighet. För mig är det viktigt att ta ansvar inte bara för mina arbetsuppgifter utan även sprida glädje omkring mig gentemot mina kollegor. Det skapar en bra stämning som också sprider sig till omgivningen och gästerna. Jag vet att jag har förmågan att snabbt lära mig nya saker, är orädd, händig, IT kunnig, glad och hugger gärna in och jobbar där det behövs.</p>
+            </div> <br>
+            <div id="footer"><a id="f_line" href="http://se.linkedin.com/pub/axel-cullberg/94/510/1ab/">LinkedIn </a> <a href="https://www.flickr.com/photos/axelcullberg/">Flickr</a></div>
+	</section>
+</div>
+
+		<nav class="sidebar jsc-sidebar" id="jsi-nav" data-sidebar-options="">
+	<ul class="sidebar-list">
+		<li><a href="index.html" class="current">Start</a></li>
+		<li><a href="about.html">Om mig</a></li>
+		<li><a href="CV.html">CV</a></li>
+		<li><a href="portfolio.html">Portfolio</a></li>
+		<li><a href="kontakt.html">Kontakt</a></li>
+		
+	</ul>
+</nav>
+
+
+		<script src="js/lib/jquery.min.js"></script>
+		
+		<script src="js/sidebar.js"></script>
+		
+		<script>
+			$('#jsi-nav').sidebar({
+				trigger: '.jsc-sidebar-trigger',
+				pullCb: function () { console.log('pull'); },
+				pushCb: function () { console.log('push'); }
+			});
+		</script>
+	</body>
+</html>
